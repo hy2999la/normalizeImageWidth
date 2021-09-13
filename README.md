@@ -28,4 +28,6 @@ let x_2 = targetWidth / (width_1 * height_2 / height_1 + width_2);
 let x_1 = height_2 / height_1 * x_2;
 ```
 
-This works in the case of only having two images in the same paragraph, and solving a linear equation with 3 unknowns are out of the scope of GAPs. Therefore, for lines that contain 3 images, we simply scale the width based on their width ratio. We then scale the height based on the aspect ratio of the original image, we then have to manually change the image's scale in Google Docs, but since the images correctly fit each line already, this makes the process easier than before.
+This works in the case of only having two images in the same paragraph, since solving a linear equation with 3 or higher unknown variables are not as trivial. Therefore, for lines that contain 3 images, we simply scale the width based on their width ratio, and we scale the height based on the aspect ratio of the original image. 
+
+We then unfortunately have to manually fix the images in Google Docs, but since the images correctly fit each line already, this makes the process easier than before.

@@ -37,7 +37,7 @@ function normalizeImageWidths() {
 
 			// Solving the system gives us
 			// x_1 = targetWidth / (width1 + width2*height1/height2 + ... + widthn*height1/heightn)
-			// We then substitute our x_1 value to 
+			// We then substitute our x_1 value to our equated height equations
 
 			let denom = imgWidths[0];
 
